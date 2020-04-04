@@ -1,4 +1,4 @@
-<h1> Interactive Graph  <img src="logo.png" align="right" width="200 height="100"/> </h1>
+<h1> Interactive Graph  <img src="logo.png" align="right" width="200 height="80"/> </h1>
 
 <h4> <em>Jacob Cheng</em> </h4>
 
