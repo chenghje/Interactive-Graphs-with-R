@@ -1,12 +1,4 @@
----
-output: 
-  html_document:
-     theme: lumen
----
-
-
-
-<h1> Interactive Graph  <img src="logo.png" align="right" style="width:200px;height:80px" /> </h1>
+<h1> Interactive Graph  <img src="logo.png" align="right" style="width:100px;height:40px" /> </h1>
 
 <h4> <em>Jacob Cheng</em> </h4>
 
