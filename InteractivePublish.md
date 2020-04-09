@@ -1,7 +1,7 @@
 <h1> Interactive Graph with R  <img src="logo.png" align="right" width="160" height="50" /> </h1>
 
 <h4> <em>Jacob Cheng</em> </h4>
-<h4> <em>Date: 4/9/2020</em> </h4>
+Date: 4/9/2020
 
 ***
 ### Introduction
