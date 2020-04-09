@@ -1,6 +1,7 @@
-<h1> Interactive Graph  <img src="logo.png" align="right" width="200" height="80" /> </h1>
+<h1> Interactive Graph with R  <img src="logo.png" align="right" width="160" height="50" /> </h1>
 
 <h4> <em>Jacob Cheng</em> </h4>
+<h4> <em>Date: 4/9/2020</em> </h4>
 
 ***
 ### Introduction
@@ -16,17 +17,17 @@ While interactive and dynamic visualization becomes more popular in the data sci
 
 * **Demo 3:** <u>[Distribution Bins](https://jcheng99.shinyapps.io/InteractiveShinyApp/)</u> - choose how many bins and the distribution type you want to display the histogram chart. This is a standard `Shiny` app but embed within `RMarkdwon` document, posted on *shinyapps.io*.
 
-* **Note:** Shiny demo apps may be in the idle status when not often used. Please be patient if it takes a moment to resume the operation in the server side.
+* **Note:** Shiny demo apps may be in the idle status when not often used with a personal account. Please be patient if it takes a moment to resume the operation in the server side.
 
 
 ***
 ### Application
-We could leverage this integrated platform to develop mathematically advanced tools that excel cannot handle for internal use. The professional plan can authenticate users with password protected access for privacy and security. For more information please visit the **Shiny** (by RStudio) website at the following link: <https://shiny.rstudio.com>.
+YOu could leverage this integrated platform to develop mathematically advanced tools or functional dashboards that excel cannot handle for both internal use or prototyping an online analytical application. The professional plan can authenticate users with password protected access for privacy and security without idle operation status. For more information please visit the **Shiny** (by RStudio) website at the following link: <https://shiny.rstudio.com>.
 
 
 ***
 ### Dynamic Plot
-By way of contrast, the fancy visualization without recalculation is refered as to dynamic plot. The most popular way to generate a dynamic plot is with `plotly` while some more specialized tools also available. Below are two examples. There plots are based on `htmlwidges` technique so once generated are portable html documents and independent of the platform. You can view them anywhere online or locally with an internet browser.
+By way of contrast, a fancy visualization without recalculation is another type of interactive graph that I usually call dynamic plot (actually the name is arbitrary and sometimes used interchangeably). A very popular way to generate a dynamic plot is with `plotly` while some more specialized tools also available. Below are three simple examples. These plots are based on `htmlwidgets` technique so once generated are portable html documents and independent of the platforms. You can post them online or viem them locally with an internet browser.
 
 * **Demo 4:** <u>[Box plots](https://rpubs.com/chenghje/594826)</u> - typical `plotly` graph to compare 5 groups with dynamicaly displayed data lables and adjustable size, posted on *rpubs.com*.
 
@@ -40,3 +41,5 @@ By way of contrast, the fancy visualization without recalculation is refered as 
 ***
 ### Reporting
 Above plots are still static in the content but the formatting is dynamic and very polished with many front-end web techniques (such as HTML, CSS and JavaScrips) leveraged automatically. Nowadays they are very popular in the online reporting pages. More examples can be found in **RPubs** (by RStudio) website at the following link: <https://rpubs.com>.
+
+
