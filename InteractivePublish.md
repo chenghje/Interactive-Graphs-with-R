@@ -22,7 +22,7 @@ While interactive and dynamic visualization becomes more popular in the data sci
 
 ***
 ### Application
-YOu could leverage this integrated platform to develop mathematically advanced tools or functional dashboards that excel cannot handle for both internal use or prototyping an online analytical application. The professional plan can authenticate users with password protected access for privacy and security without idle operation status. For more information please visit the **Shiny** (by RStudio) website at the following link: <https://shiny.rstudio.com>.
+You could leverage this integrated platform to develop mathematically advanced tools or functional dashboards that excel cannot handle for both internal use or prototyping an online analytical application. The professional plan can authenticate users with password protected access for privacy and security without idle operation status. For more information please visit the **Shiny** (by RStudio) website at the following link: <https://shiny.rstudio.com>.
 
 
 ***
