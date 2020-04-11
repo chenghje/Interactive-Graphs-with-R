@@ -25,8 +25,7 @@ You could leverage this integrated platform to develop mathematically advanced t
 
 ***
 ### Dynamic Plot
-By way of contrast, a fancy visualization without recalculation is another type of interactive graph that I usually call dynamic plot (actually the name is arbitrary and sometimes used interchangeably). A very popular way to generate dynamic plots is with `plotly` while some more specialized tools also available. These plots are based on `htmlwidgets` framework for embedding many front-end techniques (such as HTML, CSS and JavaScrips) into R automatically to to build dynamic and polished formatting. Once generated are portable html documents across platforms, so you can post them online or viem them locally with an internet browser.
-Below are three simple examples. More examples can be found in **RPubs** (by RStudio) website at the following link: <https://rpubs.com>.
+By way of contrast, a fancy visualization without recalculation is another type of interactive graph that I usually call dynamic plot (actually the name is arbitrary and sometimes used interchangeably). A very popular way to generate dynamic plots is with `plotly` while some more specialized tools also available. These plots are based on `htmlwidgets` framework for embedding many front-end techniques (such as HTML, CSS and JavaScrips) into R automatically to to build dynamic and polished formatting. Once generated are portable html documents across platforms, so you can post them online or viem them locally with an internet browser. Below are three simple examples. More examples can be found in **RPubs** (by RStudio) website at the following link: <https://rpubs.com>.
 
 * **Demo 4:** <u>[Box plots](https://rpubs.com/chenghje/594826)</u> - typical `plotly` graph to compare 5 groups with dynamicaly displayed data lables and adjustable size, posted on *rpubs.com*.
 
