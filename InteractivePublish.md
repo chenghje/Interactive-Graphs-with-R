@@ -1,3 +1,11 @@
+---
+output: 
+  html_notebook:
+     theme: lumen
+---
+
+
+
 <h1> Interactive Graph with R  <img src="logo.png" align="right" width="160" height="50" /> </h1>
 
 <h4> <em>Jacob Cheng</em> </h4>
@@ -42,10 +50,11 @@ Nowadays dynamic plots are very often seen in an online dashboard but building a
 
 <iframe width="700" height="500" src="https://datastudio.google.com/embed/reporting/1WRu-jrKcJ43GOhG0WYjzuKT5AstIyQxj/page/d2nd" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-* **Page 1:** Cumilative mortality count, select by year
-* **Page 2:** Lenth of stay view (LOS), select  by year and severity level
-* **Page 3:** Mortality vs LOS scatterplot (monthly aggregation), select  by year
-* **Page 4:** Monthly mortality and LOS report (bar charts), select  by year
-* **Page 5:** Map for mortality count, select by state and severity level
+* **Page 1:** Cumilative mortality count, can select subgroup by year.
+* **Page 2:** Lenth of stay view (LOS), can select ubgroup by year and severity level.
+* **Page 3:** Mortality vs LOS scatterplot (monthly aggregation), can select ubgroup  by year.
+* **Page 4:** Monthly mortality and LOS report (bar charts), can select ubgroup  by year.
+* **Page 5:** Map for mortality count, can select ubgroup by state and severity level.
 
 ***
+Last update: 4/11/2020
