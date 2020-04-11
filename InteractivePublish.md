@@ -41,7 +41,6 @@ Below are three simple examples. More examples can be found in **RPubs** (by RSt
 ### Reporting Dashboard
 Nowadays dynamic plots are very often seen in an online dashboard but building a dynamic dashboard requires more works. A dashboard can have multiple pages (themes) and each page usually include multiple graphs and tables together. Also, all the garaphs and tables in a page should be linked together so as to be changed together according to user's interactive input such as filtering the population or changing the metrics. These works can be done relatively easy with the help of BI tools (such as Tableau). Here is an example to embed an external dashboard by Google Data Studio in `RMarkdwon` document.
 
-
 <iframe width="700" height="500" src="https://datastudio.google.com/embed/reporting/1WRu-jrKcJ43GOhG0WYjzuKT5AstIyQxj/page/d2nd" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 * **Page 1:** Cumilative mortality count, select by year
