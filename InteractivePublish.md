@@ -1,7 +1,6 @@
 <h1> Interactive Graph with R  <img src="logo.png" align="right" width="160" height="50" /> </h1>
 
 <h4> <em>Jacob Cheng</em> </h4>
-Date: 4/9/2020
 
 ***
 ### Introduction
@@ -10,7 +9,6 @@ While interactive and dynamic visualization becomes more popular in the data sci
 
 ***
 ### Example
-
 * **Demo 1:** <u>[K-Means Clustering](https://jcheng99.shinyapps.io/k-means_clustering)</u> - choose any pairs of dimensions and how many groups you want to segment the observations. This is a standalone dynamic graph with `ShinyApp` function, posted on *shinyapps.io*.
 
 * **Demo 2:** <u>[Distribution Smoothing](https://jcheng99.shinyapps.io/Interactive_ggvis_plot)</u> - choose the density estimation method and how smooth you want to plot the density chart. This is dynamic `ggvis` plot embed within `RMarkdwon` document, posted on *shinyapps.io*.
@@ -21,13 +19,14 @@ While interactive and dynamic visualization becomes more popular in the data sci
 
 
 ***
-### Application
+### Statistical Application
 You could leverage this integrated platform to develop mathematically advanced tools or functional dashboards that excel cannot handle for both internal use or prototyping an online analytical application. The professional plan can authenticate users with password protected access for privacy and security without idle operation status. For more information please visit the **Shiny** (by RStudio) website at the following link: <https://shiny.rstudio.com>.
 
 
 ***
 ### Dynamic Plot
-By way of contrast, a fancy visualization without recalculation is another type of interactive graph that I usually call dynamic plot (actually the name is arbitrary and sometimes used interchangeably). A very popular way to generate a dynamic plot is with `plotly` while some more specialized tools also available. Below are three simple examples. These plots are based on `htmlwidgets` technique so once generated are portable html documents and independent of the platforms. You can post them online or viem them locally with an internet browser.
+By way of contrast, a fancy visualization without recalculation is another type of interactive graph that I usually call dynamic plot (actually the name is arbitrary and sometimes used interchangeably). A very popular way to generate dynamic plots is with `plotly` while some more specialized tools also available. These plots are based on `htmlwidgets` framework for embedding many front-end techniques (such as HTML, CSS and JavaScrips) into R automatically to to build dynamic and polished formatting. Once generated are portable html documents across platforms, so you can post them online or viem them locally with an internet browser.
+Below are three simple examples. More examples can be found in **RPubs** (by RStudio) website at the following link: <https://rpubs.com>.
 
 * **Demo 4:** <u>[Box plots](https://rpubs.com/chenghje/594826)</u> - typical `plotly` graph to compare 5 groups with dynamicaly displayed data lables and adjustable size, posted on *rpubs.com*.
 
@@ -39,7 +38,16 @@ By way of contrast, a fancy visualization without recalculation is another type 
 
 
 ***
-### Reporting
-Above plots are still static in the content but the formatting is dynamic and very polished with many front-end web techniques (such as HTML, CSS and JavaScrips) leveraged automatically. Nowadays they are very popular in the online reporting pages. More examples can be found in **RPubs** (by RStudio) website at the following link: <https://rpubs.com>.
+### Reporting Dashboard
+Nowadays dynamic plots are very often seen in an online dashboard but building a dynamic dashboard requires more works. A dashboard can have multiple pages (themes) and each page usually include multiple graphs and tables together. Also, all the garaphs and tables in a page should be linked together so as to be changed together according to user's interactive input such as filtering the population or changing the metrics. These works can be done relatively easy with the help of BI tools (such as Tableau). Here is an example to embed an external dashboard by Google Data Studio in `RMarkdwon` document.
 
 
+<iframe width="700" height="500" src="https://datastudio.google.com/embed/reporting/1WRu-jrKcJ43GOhG0WYjzuKT5AstIyQxj/page/d2nd" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+* **Page 1:** Cumilative mortality count, select by year
+* **Page 2:** Lenth of stay view (LOS), select  by year and severity level
+* **Page 3:** Mortality vs LOS scatterplot (monthly aggregation), select  by year
+* **Page 4:** Monthly mortality and LOS report (bar charts), select  by year
+* **Page 5:** Map for mortality count, select by state and severity level
+
+***
